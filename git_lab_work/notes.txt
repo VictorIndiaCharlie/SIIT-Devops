@@ -1,4 +1,0 @@
-Line 1: Project overview
-Line 2: Implementation details
-Line 3: Testing strategy
-This is an uncommitted edit to notes.txt
