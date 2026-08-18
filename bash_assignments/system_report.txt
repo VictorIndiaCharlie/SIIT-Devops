@@ -1,0 +1,15 @@
+User: vic
+Dir: /home/vic/bash_assignments
+--- History ---
+git push -u origin test-merge
+git push -u origin test-rebase
+git push -u origin hotfix
+git push --all origin
+git log --graph --oneline --all --decorate
+--- Processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vic          467  6.1  2.6 10425048 384320 pts/0 Sl+  17:41   0:34 /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node --dns-result-order=ipv4first /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+vic          385  0.5  0.9 1772640 134416 pts/0  Sl+  17:41   0:03 /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=1094729655-372990990-441432753-2361817672 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+vic          499  0.2  2.1 11776604 304148 pts/0 Sl+  17:41   0:01 /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node_modules/@github/copilot-linux-x64/index.js --headless --no-auto-update --log-level info --stdio --no-auto-login
+vic          456  0.1  0.8 18529816 126020 pts/0 Sl+  17:41   0:01 /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/out/bootstrap-fork --type=agentHost --logsPath /home/vic/.vscode-server/data/logs/20260818T174151 --user-data-dir /home/vic/.vscode-server/data
+vic          425  0.1  0.5 1431300 81348 pts/3   Ssl+ 17:41   0:01 /home/vic/.vscode-server/bin/a5b500951314efd502d07465bd138dfbd714a960/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 44729 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
